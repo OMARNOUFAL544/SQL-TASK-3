@@ -3,8 +3,8 @@ USE HR;
 
 CREATE TABLE Location (
     location_id INT PRIMARY KEY AUTO_INCREMENT,
-    city VARCHAR(100) NOT NULL,
-    country VARCHAR(100) NOT NULL
+    city VARCHAR(100),
+    country VARCHAR(100) 
 );
 
 CREATE TABLE Department (
